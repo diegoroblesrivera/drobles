@@ -52,15 +52,23 @@ edad=64
 # else:
 #     print("tiene", edad, "por tanto es mayor de edad")
 
-#ingrese 3 numeros y muestre el mayor de ellos
+# #ingrese 3 numeros y muestre el mayor de ellos
+
+# n1=int(input("ingrese un numero "))
+# n2=int(input("ingrese otro numero "))
+# n3=int(input("ingrese otro numero "))
+
+# if n1>n2 and n1>n3:
+#     print(" EL numero ", n1, "es el mayor")
+# elif n2>n3:
+#     print(" EL numero ", n2, "es el mayor")
+# else:
+#     print(" EL numero ", n3, "es el mayor")
+
 
 n1=int(input("ingrese un numero "))
-n2=int(input("ingrese otro numero "))
-n3=int(input("ingrese otro numero "))
 
-if n1>n2 and n1>n3:
-    print(" EL numero ", n1, "es el mayor")
-elif n2>n3:
-    print(" EL numero ", n2, "es el mayor")
+if n1 % 2==0:
+    print("El numero es par")
 else:
-    print(" EL numero ", n3, "es el mayor")
+    print("El numero es impar")
